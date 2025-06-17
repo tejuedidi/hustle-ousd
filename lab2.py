@@ -1,4 +1,4 @@
-# Lab 2 - Teju Edidi
+# Lab 2 - Teju Edidi 
 
 # Step 1: Name Variable
 name = "Tejaswini Edidi"
@@ -20,8 +20,13 @@ my_favs = {'beading':'flowers','movie': 'OSO', 'cartoon':["fairly odd parents", 
 
 # Step 7: Set Variable
 teachers = {"parker b", "parker b", "mia"}
-print(teachers)
+# print(teachers)
 
 # Step 7: Tuple Variable
-teachers = ("parker b", "parker b", "mia")
-# print(teachers)
+teachers1 = ("parker b", "parker b", "mia")
+
+print(name + ' ' + nickname)
+print(hobbies)
+print(my_favs)
+print(teachers)
+print(teachers1)
