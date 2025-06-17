@@ -19,9 +19,9 @@ hobbies = ["beading", "painting", "TV", "jewelry", "coding"] # list of strings
 my_favs = {'beading':'flowers','movie': 'OSO', 'cartoon':["fairly odd parents", "steven universe", "regular show", "TAWOG"]}
 
 # Step 7: Set Variable
-teachers = {"parker b", "parker bo", "mia"}
-# print(teachers)
+teachers = {"parker b", "parker b", "mia"}
+print(teachers)
 
 # Step 7: Tuple Variable
 teachers = ("parker b", "parker b", "mia")
-print(teachers)
+# print(teachers)
