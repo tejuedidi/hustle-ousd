@@ -23,3 +23,46 @@ when alarm rings at set time:
             b. Stop the alarm
 
 2. Stop the alarm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+time, rings, specific time to go ring, snooze
+
+-- Pseudocode --
+
+Start
+1. Grab the alarm clock/navigate to clock app
+2. Set the alarm time
+    a. Make sure you have correct AM/PM
+    b. Set a desired ringtone (song, beat)
+
+when the alarm clock rings:
+    a. Snooze
+        a. Give 5 more minutes
+        b. Give 10 more minutes
+
+        once extra time is up:
+            a. Give x more minutes
+            b. Stop the alarm
+
+    b. Stop the alarm and get up
+
+End
