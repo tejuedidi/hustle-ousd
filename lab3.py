@@ -41,7 +41,7 @@ number_list.remove(20) # 5
 
 
 # Task 3: Working with Dictionaries (key : value)
-books = {"Elisabetta Dami" : "Four Mice Deep in the Jungle", 
+books = {"author1" : "Four Mice Deep in the Jungle", 
 "Selina" : "Working in Python", 
 "Rabindranath Tagore": "Gitanjali"} # 1
 print(books.keys()) #2
