@@ -1,5 +1,45 @@
 # Lab 2: Teju Edidi
 
+# variable = container for value
+name = "Teju Edidi" # 1
+
+nickname = "Sunny" # 2
+
+# int or integer = whole number (no decimal) -1 10 500
+# float or floating point (decimal) 3.2 -4.5
+age = 17 # 3
+print("Sunny's age is", age)
+
+used_before = True
+
+hobbies = ["painting", "reading", "coding"]
+
+# dict_name = {key:value, key:value, key:value}
+
+food = {"food": "sushi"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Step 1: Name Variable
 name = "Tejaswini Edidi"
 
