@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/upload-artifact@v3
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -36,4 +36,3 @@ jobs:
           name: test-results
           path: test_lab3.py
 
-          
