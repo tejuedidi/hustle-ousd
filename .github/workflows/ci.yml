@@ -31,7 +31,7 @@ jobs:
           python -m unittest test_lab3.py  # Run the grading script
 
       - name: Upload results (optional)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: test-results
           path: test_lab3.py
