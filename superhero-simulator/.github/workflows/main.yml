@@ -44,8 +44,13 @@ jobs:
         fi
 
         echo -e "${GREEN}All required files are present. Proceeding with other checks."
-    - name: File functionality
-      run: |
-        echo "This step can be used to run tests or checks on the files if needed."
-        python3 arena.py
+     - name: Upload Artifact
+       uses: actions/upload-artifact@v4
+       with:
+          name: artifact
+          path: ./arena.py  
+          if-no-files-found: warn
+          compression-level: 6
+          overwrite: false
+          include-hidden-files: false
         
